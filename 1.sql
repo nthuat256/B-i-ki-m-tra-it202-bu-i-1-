@@ -29,7 +29,7 @@ update products
 set  price = 26000000
 where produduct_name = 'iPhone 15';
 update products
-set stock = stock +10
+set stock = stock + 10
 where category_id = 1;
 delete from products
 where produduct_id = 4;
@@ -42,7 +42,7 @@ select stock > 15
 select price >= 1000000
 	and price <= 25000000
 	from Products;
-select product_name !='iPhone 15'
+select produduct_name !='iPhone 15'
 	and stock > 0
 	from Products;
 select category_id != 1
